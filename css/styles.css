@@ -1,4 +1,66 @@
-h1 {
-    font-family: 'Courier New', Courier, monospace;
-    color: aqua;
+body {
+    height: 100%;
+    background-color: #b8b8b8;
+}
+
+/* Styling for the navigation bar elements, i.e. position, background colour, etc. */
+.nav-container { 
+    background-color: #24222e;
+    width: 100%; 
+    padding: 15px 0;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* Setting a max width for the navigation bar and centring it */
+.nav-link-container {
+    text-align: center;
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* Styling for the navigation bar text elements */
+.nav-link-container a {
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    padding: 15px 30px;
+}
+
+.nav-link-container a:hover {
+    background-color: #383542;
+}
+
+/* Styling for full height nav bar */
+.nav-container.full {
+    font-size: 16px;
+}
+
+/* Styling for the main content of the pages */
+body {
+    font-family: 'Montserrat';
+}
+
+.main-content {
+    margin-top: 75px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.landing {
+    margin: auto 50px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Montserrat';
+    color: rgba(0, 0, 0, 0.45)
+}
+
+footer p {
+    margin: 0;
 }
