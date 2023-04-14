@@ -24,6 +24,20 @@ body {
 }
 
 /* Styling for the navigation bar text elements */
+.nav-link-container ul {
+    list-style: none;
+    margin: 0;
+}
+
+.nav-link-container li {
+    display: inline;
+    border-left: solid 1px whitesmoke;
+}
+
+.nav-link-container li:first-child {
+    border: none;
+}
+
 .nav-link-container a {
     color: whitesmoke;
     font-family: 'Montserrat';
@@ -52,10 +66,38 @@ body {
 }
 
 .landing {
+    position: relative;
     margin: auto 50px;
+    text-align: center;
+
+    /* background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+    background-size: cover; */
+
+    color: whitesmoke;
 }
 
+/* Styling the Font Awesome Brand Icons*/
+.landing .social-container {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.social-link {
+    margin: 5px;
+}
+
+.fa-brands {
+    color: whitesmoke;
+} 
+
+.fa-brands:hover {
+    color: #383542;
+    transition: 0.3s;
+}
+ 
 footer {
+    margin-top: 20px;
     text-align: center;
     font-family: 'Montserrat';
     color: rgba(0, 0, 0, 0.45)
