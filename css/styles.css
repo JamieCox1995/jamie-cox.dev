@@ -14,6 +14,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+
+    z-index: 100;  /* Setting the z-index to a large integer to set the nav bar above everything else */
 }
 
 /* Setting a max width for the navigation bar and centring it */
@@ -42,6 +44,10 @@ body {
     color: whitesmoke;
     font-family: 'Montserrat';
     padding: 15px 30px;
+}
+
+.nav-link-container a[download] {
+    text-decoration: none;
 }
 
 .nav-link-container a:hover {
@@ -76,6 +82,12 @@ body {
     color: whitesmoke;
 }
 
+/* Section SOCIAL LINKS: Styling for the social media font awesome icons. */
+.socials {
+    margin: 75px auto;
+    text-align: center;
+}
+
 /* Styling the Font Awesome Brand Icons*/
 .landing .social-container {
     width: 100%;
@@ -95,7 +107,78 @@ body {
     color: #383542;
     transition: 0.3s;
 }
- 
+
+.introduction {
+    margin: 50px auto;
+    margin-top: 50px;
+
+    display: table;
+}
+
+.intro {
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.intro h1 {
+    font-size: 1.5rem;
+    line-height: 1em;
+}
+
+.intro p {
+    line-height: 1.5em;
+}
+
+.left-content {
+    text-align: center;
+}
+
+/* Section LABELS: Styling for the labels which I apply to keywords. */
+.label {
+    padding: 4px 6px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+
+/* Section LABEL COLOURS: Specific label colouring. */
+.label-software {
+    background-color: #7C334B;
+}
+
+.label-game {
+    background-color: #487c33;
+}
+
+.label-csharp {
+    background-color: #52154E;
+}
+
+.label-java {
+    background-color: #111344;
+}
+
+.label-html {
+    background-color: #622B4A;
+}
+
+.label-css {
+    background-color: #472348;
+}
+
+.label-sql {
+    background-color: #2c1b46;
+}
+
+.label-unity {
+    background-color: #1A754B;
+}
+
+.label-astudio {
+    background-color: #006C5D;
+}
+
+/* Section FOOTER: Styling to create the page footer. */
 footer {
     margin-top: 20px;
     text-align: center;
