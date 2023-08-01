@@ -4,6 +4,10 @@ input {
     letter-spacing: 1.4px;
   }
 
+  .app-form {
+    width: 400px;
+  }
+
 .app-form-group {
     margin-bottom: 15px;
   }
@@ -23,9 +27,8 @@ input {
     background: none;
     border: none;
     border-bottom: 1px solid #666;
-    color: #ddd;
     font-size: 14px;
-    text-transform: uppercase;
+    color: #666;
     outline: none;
     transition: border-color .2s;
   }
@@ -35,18 +38,31 @@ input {
   }
   
   .app-form-control:focus {
-    border-bottom-color: #ddd;
+    border-bottom-color: #b9134f;
   }
   
   .app-form-button {
-    background: none;
-    border: none;
-    color: #ea1d6f;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+
+    background: #24222e;
+    border: 3px #24222e solid;
+    border-radius: 3px;
+    color: whitesmoke;
     font-size: 14px;
     cursor: pointer;
     outline: none;
+
+    transition: all 0.25s ease;
   }
   
   .app-form-button:hover {
     color: #b9134f;
+    background-color: #383542;
+    border: 3px #383542 solid;
+    border-radius: 3px;
+
+    transition: all 0.25s ease;
   }
