@@ -44,6 +44,7 @@ body {
     color: whitesmoke;
     font-family: 'Montserrat';
     padding: 15px 30px;
+    text-decoration: none;
 }
 
 .nav-link-container a[download] {
@@ -74,12 +75,13 @@ body {
 .landing {
     position: relative;
     margin: auto 50px;
+    margin-top: 150px;
     text-align: center;
 
     /* background-image: url('http://i.stack.imgur.com/kx8MT.gif');
     background-size: cover; */
 
-    color: whitesmoke;
+    /* color: whitesmoke; */
 }
 
 /* Section SOCIAL LINKS: Styling for the social media font awesome icons. */
