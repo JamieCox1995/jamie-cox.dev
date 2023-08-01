@@ -72,7 +72,7 @@ body {
     margin-right: auto;
 }
 
-.landing {
+.header {
     position: relative;
     margin: auto 50px;
     margin-top: 150px;
@@ -110,29 +110,29 @@ body {
     transition: 0.3s;
 }
 
-.introduction {
+.page-content {
     margin: 50px auto;
     margin-top: 50px;
 
     display: table;
 }
 
-.intro {
+.column {
     width: 50%;
     display: inline-block;
     margin-bottom: 50px;
 }
 
-.intro h1 {
+.column h1 {
     font-size: 1.5rem;
     line-height: 1em;
 }
 
-.intro p {
+.column p {
     line-height: 1.5em;
 }
 
-.left-content {
+.ta-c {
     text-align: center;
 }
 
