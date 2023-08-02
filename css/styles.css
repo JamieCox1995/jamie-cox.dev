@@ -75,7 +75,7 @@ body {
 .header {
     position: relative;
     margin: auto 50px;
-    margin-top: 150px;
+    margin-top: 75px;
     text-align: center;
 
     /* background-image: url('http://i.stack.imgur.com/kx8MT.gif');
@@ -178,6 +178,10 @@ body {
 
 .label-astudio {
     background-color: #006C5D;
+}
+
+.label-gamejam {
+    background-color: #2F4858;
 }
 
 /* Section FOOTER: Styling to create the page footer. */
