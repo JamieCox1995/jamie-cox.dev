@@ -6,6 +6,7 @@
 
             <link rel="stylesheet" href="../css/styles.css">
             <link rel="stylesheet" href="../css/projects.css">
+            <link rel="stylesheet" href="../css/slideshow.css">
             <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
             <script src="../include/jquery-3.7.0.min.js"></script>
@@ -23,8 +24,8 @@
                 <div class="nav-link-container"> 
                     <ul>
                         <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
                         <li><a href="projects.html">Projects</a></li>
-                        <li><a href="contact.html">Contact</a></li>
                         <li><a href="../files/Jamie Cox CV 2023.pdf" download target="_blank">Resume</a></li>
                     </ul>
                     
@@ -41,7 +42,45 @@
                 <div class="page-content">
                     <div style="display: table;">
                         <div class="column ta-c">
-                            <img src="../images/tall_character_animations.gif">
+                            <div class="slideshow-container">
+                                <div class="slideImg fade">
+                                    <img class="project-img" src="../images/megaton-title.jpg" alt="Megaton: Total Destruction Game Title">
+                                    <div class="slide-caption">Megaton: Total Destruction Game Title</div>
+                                </div>
+
+                                <div class="slideImg fade">
+                                    <img class="project-img" src="../images/Megaton-Gameplay-1.gif">
+                                    <div class="slide-caption">Megaton: Total Destruction new environment preview</div>
+                                </div>
+
+                                <div class="slideImg fade">
+                                    <img class="project-img" src="../images/Megaton-Gameplay-2.gif">
+                                    <div class="slide-caption">Megaton: Total Destruction interactive menu preview</div>
+                                </div>
+                                
+                                <div class="slideImg fade">
+                                    <img class="project-img" src="../images/megaton-screenshot-1.jpg">
+                                    <div class="slide-caption">Megaton: Total Destruction nuclear explosion</div>
+                                </div>
+
+                                <div class="slideImg fade">
+                                    <img class="project-img" src="../images/megaton-screenshot-2.jpg">
+                                    <div class="slide-caption">Megaton: Total Destruction gameplay screenshot</div>
+                                </div>
+
+                                <a class="prev-btn" onclick="plusSlides(-1)">❮</a>
+                                <a class="next-btn" onclick="plusSlides(1)">❯</a>
+
+                                <div style="text-align:center">
+                                    <span class="dot" onclick="currentSlide(1)"></span> 
+                                    <span class="dot" onclick="currentSlide(2)"></span> 
+                                    <span class="dot" onclick="currentSlide(3)"></span> 
+                                    <span class="dot" onclick="currentSlide(4)"></span> 
+                                    <span class="dot" onclick="currentSlide(5)"></span> 
+                                </div>
+
+                            </div>
+                            
                         </div>
                         <div class="column">
                             <h1 class="game-title">Megaton: Total Destruction</h1>
@@ -72,7 +111,23 @@
                             </div>
                         </div>
                         <div class="column ta-c">
-                            <img src="../images/tall_character_animations.gif">
+                            <img class="project-img" src="../images/stakkers-title.png">
+                        </div>
+                    </div>
+                    <div style="display: table;">
+                        <div class="column ta-c">
+                            <img class="project-img-alt" src="../images/1HGJ.png">
+                        </div>
+                        <div class="column">
+                            <h1 class="game-title">1 Hour Game Jam Entries</h1>
+                            <h2 class="game-tags"><span class="label label-unity">Unity Engine</span><span class="label label-gamejam">Game Jam</span></h2>
+                            <p>The 1 Hour Game Jame (1HGJ) is a weekly Game Jam run on itch.io where developers try to make and submit a game in 1 hour. A theme is randomly chosen at the start of the Jam, participants may choose to stick with the theme or not.
+                                During my university course, I took part in 5 Jams over the course of 5 weeks. Below is a link to my entries.
+                            </p>
+
+                            <div class="btn-container">
+                                <a class="btn btn-visit" href="https://onehourgamejam.com/?page=author&author=jamietd" target="_blank">Visit <i class="fa-brands fa-itch-io fa-lg"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -91,6 +146,8 @@
                 <p>Jamie Cox <span>&#169;</span> (<span id="currentYear">2023</span>)</p>
                 <p>Email: jamie.cox1995@outlook.com</p>
             </footer>
+
+            <script src="../javascript/slideshow.js"></script>
         </body>
 
     </html>

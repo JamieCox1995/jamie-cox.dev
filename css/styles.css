@@ -121,6 +121,7 @@ body {
     width: 50%;
     display: inline-block;
     margin-bottom: 50px;
+    vertical-align: top;
 }
 
 .column h1 {

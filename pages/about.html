@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <link rel="stylesheet" href="../css/styles.css">
+            <link rel="stylesheet" href="../css/contact.css">
+            <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+            <script src="../include/jquery-3.7.0.min.js"></script>
+
+            <script src="https://kit.fontawesome.com/e5261e8d0d.js" crossorigin="anonymous"></script>
+            <script src="../javascript/backend.js"></script>
+            <script src="../javascript/contact.js"></script>
+        </head>
+        
+        <title>Jamie Cox | Contact</title>
+        <meta name="description" content="BRIEF WEBSITE DESCRIPTION">
+        <meta name="author" content="Jamie Cox | Developer">
+        
+        <nav>
+            <div class="nav-container fixed-top full">
+                <div class="nav-link-container"> 
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="../files/Jamie Cox CV 2023.pdf" download target="_blank">Resume</a></li>
+                    </ul>
+                    
+                </div>
+            </div> 
+        </nav>
+        
+        <body class="main-content">
+            <div>
+                <div class="header">
+                    <h1>ABOUT ME</h1>                  
+                </div>
+                <div class="page-content">
+                    <div style="display: table;">
+                        <div class="column ta-c">
+                            <img style="height: 350px;" src="../images/tall_character_animations.gif">
+                        </div>
+                        <div class="column">
+                            <h1>The story begins in 1995...</h1>
+                            <p>Born in Plymouth, UK in December 1995.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="ta-c">
+                        <div class="column">
+                            <h1>Send me an e-mail:</h1>
+                            
+                            <form action="mailto:jamie.cox1995@outlook.com?subject=New Website Contact Form" method="post" enctype="text/plain">
+                                <div class="app-form" style="width: 100%;">
+                                    <div class="app-form-group">
+                                        <input id="txtName" name="Your Name" class="app-form-control" placeholder="NAME" type="text">
+                                    </div>
+                                    <div class="app-form-group">
+                                        <input id="txtEmail" name="E-mail" class="app-form-control" placeholder="EMAIL" type="email">
+                                    </div>
+                                    <div class="app-form-group">
+                                        <input id="txtTelephone" name="Contact No" class="app-form-control" placeholder="CONTACT NO" type="tel">
+                                    </div>
+                                    <div class="app-form-group message">
+                                        <input id="txtMessage" name="Message" class="app-form-control" placeholder="MESSAGE">
+                                    </div>
+                                    <div class="app-form-group buttons">
+                                        <button id="btnSend" class="app-form-button" type="submit">SEND</button>
+                                        <button id="btnClear" class="app-form-button">CLEAR</button>
+                                    </div>
+                                </div> 
+                            </form> 
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="socials">
+                    <div class="social-container">
+                        <a class="social-link" href="https://www.linkedin.com/in/jamie-cox-758857b9/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                        <a class="social-link" href="https://twitter.com/JamieCox1995"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+                        <a class="social-link" href="https://github.com/JamieCox1995"><i class="fa-brands fa-github fa-2xl"></i></a>
+                        <a class="social-link" href="https://jcx.itch.io/"><i class="fa-brands fa-itch-io fa-2xl"></i></a>
+                    </div>   
+                </div>
+
+            </div>
+            <footer>
+                <p>Jamie Cox <span>&#169;</span> (<span id="currentYear">2023</span>)</p>
+                <p>Email: jamie.cox1995@outlook.com</p>
+            </footer>
+        </body>
+
+    </html>
