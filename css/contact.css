@@ -66,3 +66,26 @@ input {
 
     transition: all 0.25s ease;
   }
+
+  .project-img {
+    height: 350px;
+    border-radius: 10px;
+  }
+
+  .column {
+    margin-bottom: 0;
+  }
+
+  .column h2 {
+    font-size: 20px;
+  }
+
+  .btn-reddit {
+    background-color: #ff4500;
+    border-color: #ff4500;
+  }
+
+  .btn-cults {
+    background-color: #ae77f8;
+    border-color: #ae77f8;
+  }

@@ -6,6 +6,7 @@
 
             <link rel="stylesheet" href="../css/styles.css">
             <link rel="stylesheet" href="../css/contact.css">
+            <link rel="stylesheet" href="../css/slideshow.css">
             <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
             <script src="../include/jquery-3.7.0.min.js"></script>
@@ -41,11 +42,71 @@
                 <div class="page-content">
                     <div style="display: table;">
                         <div class="column ta-c">
-                            <img style="height: 350px;" src="../images/tall_character_animations.gif">
+                            <img class="project-img" src="../images/me.jpg">
                         </div>
                         <div class="column">
-                            <h1>The story begins in 1995...</h1>
-                            <p>Born in Plymouth, UK in December 1995.</p>
+                            <h1>The story begins December 1995...</h1>
+                            <p style="font-size: 14px;">I was born and raised in a city called Plymouth, in the south west of the United Kingdom. Throughout my childhood, I spent a great deal of my days either outside playing or being creative with paints, glues, and cardboard.
+                                Inspired by much of the media that I consumed as a child, my imagination grew to encompass massive battles with Lego figures or small narratives that I would draw into my own comics. My imagination has stuck with me as I have grown up, and is
+                                what has driven me to becoming a software/games developer. Now as an adult, I am able to turn many of my childhood and older ideas into a reality.
+                                <br><br>
+                                In 2017 I completed my BSc (Hons) degree in Computing and Games Development at University of Plymouth. Myself and 2 other classmates decided that we wanted to
+                                improve and release a game that we had worked on during one of our courses, and this led to us starting the company "TotalDistraction". 2 years later, 1 released game, and many challanges and lessons learned we decided to part ways.
+                                In 2019, I joined one of the fastest growing companies in the UK, The Range Ltd, as a software developer.
+                            </p>
+                        </div>
+
+                        <div class="column ta-c">
+                            <div class="slideshow-container">
+                                <div class="slideImg fade">
+                                    <img class="project-img" src="../images/hobbies/dnd.jpg" alt="Megaton: Total Destruction Game Title">
+                                    <div class="slide-caption">Dungeons & Dragons setup</div>
+                                </div>
+
+                                <div class="slideImg fade">
+                                    <img class="project-img" src="../images/hobbies/legion1.jpg">
+                                    <div class="slide-caption">Personally painted model for Star Wars: Legion tabletop</div>
+                                </div>
+
+                                <div class="slideImg fade">
+                                    <img class="project-img" src="../images/hobbies/40k.jpg">
+                                    <div class="slide-caption">Personally painted model for Warhammer 40K</div>
+                                </div>
+
+                                <div class="slideImg fade">
+                                    <img class="project-img" src="../images/hobbies/theboi.jpg">
+                                    <div class="slide-caption">My dog, Marvel</div>
+                                </div>
+
+                                <a class="prev-btn" onclick="plusSlides(-1)">❮</a>
+                                <a class="next-btn" onclick="plusSlides(1)">❯</a>
+
+                                <div style="text-align:center">
+                                    <span class="dot" onclick="currentSlide(1)"></span> 
+                                    <span class="dot" onclick="currentSlide(2)"></span> 
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                    <span class="dot" onclick="currentSlide(4)"></span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="column">
+                            <h2>The present day...</h2>
+                            <p style="font-size: 14px;">
+                                Even as an adult, in my spare time I still like to use my imagination. Instead of drawing my own comics I am creating a world for a home Dungeons and Dragons campaign for my friends as the Dungeon Master, or I am painting models for miniature tabletop games,
+                                and board games. To compliment playing tabletop games I have also a couple of 3d printers which I utilise for making props and models, and I have also design and model my own props for tabletop games.
+
+                                <br><br>
+                                When I'm not working or spending time on my gaming hobbies, I'm spending time with my fiancé and looking after our energtic and loving 2 and half year Rhodesian Ridgeback cross German Shepherd, Marvel.
+
+                                <br><br>
+                                Below are some links to Reddit and Cults3D, where I often post about much of my gaming-related hobby posts.
+                            </p>
+
+                            <div class="btn-container ta-c">
+                                <a class="btn btn-reddit" href="" target="_blank">Reddit<i class="fa-brands fa-reddit fa-lg"></i></a>
+                                <a class="btn btn-cults" href="" target="_blank">Cults3D<i class="fa-solid fa-dice-d6"></i></a>
+                            </div>
                         </div>
                         
                     </div>
@@ -53,7 +114,7 @@
                         <div class="column">
                             <h1>Send me an e-mail:</h1>
                             
-                            <form action="mailto:jamie.cox1995@outlook.com?subject=New Website Contact Form" method="post" enctype="text/plain">
+                            <form action="mailto:jamie@jamie-cox.dev?subject=New Website Contact Form" method="post" enctype="text/plain">
                                 <div class="app-form" style="width: 100%;">
                                     <div class="app-form-group">
                                         <input id="txtName" name="Your Name" class="app-form-control" placeholder="NAME" type="text">
@@ -92,6 +153,8 @@
                 <p>Jamie Cox <span>&#169;</span> (<span id="currentYear">2023</span>)</p>
                 <p>Email: jamie.cox1995@outlook.com</p>
             </footer>
+
+            <script src="../javascript/slideshow.js"></script>
         </body>
 
     </html>

@@ -185,6 +185,37 @@ body {
     background-color: #2F4858;
 }
 
+.btn {
+    padding: 5px 15px;
+    border: 5px white solid;
+    border-radius: 25px;
+
+    background-color: white;
+
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+
+    transition: 0.3s !important;
+}
+
+.btn i {
+    margin-left: 10px;
+    transition: 0.3s !important;
+}
+
+.btn:hover {
+    color: #383542;
+
+    transition: 0.3s !important;
+}
+
+.btn:hover i {
+    color: #383542;
+
+    transition: 0.3s !important;
+}
+
 /* Section FOOTER: Styling to create the page footer. */
 footer {
     margin-top: 20px;
